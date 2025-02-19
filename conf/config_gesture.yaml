@@ -58,9 +58,9 @@ transforms:
 result:
   save_vis: False
   save_model: False
-  path_data: '/data/datasets/internal/gesture/preprocessed/snapshot/'
-  path_des: '/data/datasets/internal/gesture/preprocessed/snapshot/des_snapshot_v2.csv'
-  path_save_vis: '/workspace/0_temp/gesture_result/${wandb.project}/'
+  path_data: '/path_data'
+  path_des: '/path_metadata'
+  path_save_vis: '/path_save'
   name: 'Temp'
   note: 'Temp'
   labels: ['1','2','3','4','5','6','7','8','9','10','11','12']
