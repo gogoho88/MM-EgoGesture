@@ -43,7 +43,19 @@ sensor:
 * Rut it through python
 ```
 cd MM-EgoGesture
-python main_gesture.py
+python main_inference.py
+```
+
+## Model Inference and Checkpoints
+Trained model parameters(`model_Fusion.pt`) and corresponding settings(`args_Fusion.yaml`) can be found from this [Google Drive foler](https://drive.google.com/drive/folders/1n1nkfOQtNZ2cDRLQldMPpkFfIqnB4RXG?usp=share_link).
+
+To directly do inference using the trained model, you need to change the config file:
+* In `/conf/config_inference.yaml`, specify the path of `model_Fusion.pt` and `args_Fusion.yaml` with `path_model` and `path_args`, respectively.
+* Specify the path where the result will be saved in `path_save`
+* Run it through Python
+```
+cd MM-EgoGesture
+python main_inference_keypoint.py
 ```
 
 ## License
