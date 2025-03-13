@@ -43,7 +43,7 @@ sensor:
 * Rut it through python
 ```
 cd MM-EgoGesture
-python main_inference.py
+python main_gesture.py
 ```
 
 ## Model Inference and Checkpoints
@@ -55,7 +55,7 @@ To directly do inference using the trained model, you need to change the config 
 * Run it through Python
 ```
 cd MM-EgoGesture
-python main_inference_keypoint.py
+python main_inference.py
 ```
 
 ## License
